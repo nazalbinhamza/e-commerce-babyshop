@@ -1,0 +1,74 @@
+.col-nav{
+    color: #3D0C11;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.col-nav:hover{
+    color: black;
+}
+.slide-img{
+    height:00px;
+    width:300px;
+}
+.addcart{
+    margin-right: 20px;
+    width: 100px;
+}
+.log-icon{
+    margin-right: 20px;
+}
+.user-icon{
+    margin-right: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+@media screen and (max-width:736px){
+    .slide-img{
+        height: 150px;
+    }
+    .addcart{
+        margin-top: 0px;
+        margin-left: -41px;
+    }
+    .user-icon{
+        margin-top: 5px;
+    }
+    .log-icon{
+    margin-right: 20px;
+    margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+    .slide-img{
+        height: 150px;
+    }
+    .addcart{
+        margin-top: 9px;
+        margin-left: -41px;
+    }
+    .user-icon{
+        margin-top: 5px;
+    }
+    .log-icon{
+    margin-right: 20px;
+    margin-top: 10px;
+    }
+    /* Your styles for medium-sized screens go here */
+}
+
+/* @media only screen and (min-width: 1025px) {
+    .slide-img{
+        height: 150px;
+    }
+    .addcart{
+        margin-top: -9px;
+        margin-left: -41px;
+    }
+    .user-icon{
+        margin-top: 5px;
+    }
+    .log-icon{
+    margin-right: 20px;
+    margin-top: 10px;
+    }
+    /* Your styles for large screens go here */
