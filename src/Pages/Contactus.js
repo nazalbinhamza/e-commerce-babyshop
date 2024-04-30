@@ -8,7 +8,7 @@ export default function Contactus() {
   <div >
   <div className='container'>
     <MDBValidation noValidate id='form' className='text-center' style={{ width: '100%', maxWidth: '300px',marginTop:'200px' }}>
-      <h2>Contact us</h2>
+      <h2 style={{color:'black'}}>Contact us</h2>
 
       <MDBValidationItem invalid feedback='Please provide your name.'>
         <MDBInput label='Name' v-model='name' wrapperClass='mb-4' required />

@@ -48,10 +48,10 @@ function Addtocart() {
           <h4>{item.title}</h4>
           <p>{item.description}</p>
           <strong><p>₹{item.price*item.quantity}</p></strong>
-          <p>Quantity : <FaPlusSquare onClick={()=>Increment(item.id)} style={{color:'#9D76C1'}} /> {item.quantity} <FaSquareMinus onClick={()=>Decrement(item.id)} style={{color:'#9D76C1'}} /></p>
+          <p>Quantity : <FaPlusSquare onClick={()=>Increment(item.id)} style={{color:'#47272b'}} /> {item.quantity} <FaSquareMinus onClick={()=>Decrement(item.id)} style={{color:'#47272b'}} /></p>
         </div>
         <div style={{marginLeft:'20px'}}>
-          <RiDeleteBin6Fill onClick={()=>remove(item.id)} style={{color:'#9D76C1'}} />
+          <RiDeleteBin6Fill onClick={()=>remove(item.id)} style={{color:'#47272b'}} />
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@ function Addtocart() {
 }
 <br />
   <div className='container'>
-      <h5 style={{display:'flex',justifyContent:'right',color:'#9D76C1'}}>Total : ₹{user.cart.reduce((acc,curr)=>acc += curr.price*curr.quantity,0)}</h5>
+      <h5 style={{display:'flex',justifyContent:'right',color:'#47272b'}}>Total : ₹{user.cart.reduce((acc,curr)=>acc += curr.price*curr.quantity,0)}</h5>
   </div>
       </div>
   )

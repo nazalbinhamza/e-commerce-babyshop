@@ -5,20 +5,20 @@ function Aboutus() {
     <div >
       <br /><br /><br /><br /><br />
       <div style={{ width: '100%', textAlign: 'center', color: 'black', letterSpacing: '2.9px', fontStyle: 'italic'}}>
-        <h6 style={{ color: '#85603F' }}>ABOUT US</h6>
+        <h6 style={{ color: '#47272b' }}>ABOUT US</h6>
         <br />
         <br />
         <h2>Kerala's No.1</h2>
         <h3>Baby Store</h3>
         <br />
-        <h3 style={{ color: '#85603F' }}>_____</h3>
+        <h3 style={{ color: '#47272b' }}>_____</h3>
       </div>
       <div style={{display:'flex',justifyContent:'center'}}>
          <img
           style={{
             borderRadius: '20px',
             width: '100%',
-            boxShadow: '10px 10px 10px #85603F',
+            boxShadow: '10px 10px 10px #47272b',
             transition: 'transform 0.2s ease-in-out',
             cursor: 'pointer',
             width: '20%'
@@ -31,7 +31,7 @@ function Aboutus() {
         </div>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <div style={{ width: '100%', textAlign: 'center', color: 'black', letterSpacing: '2.9px', fontStyle: 'italic',marginTop:'40px' }}>
-          <h4>Made<span style={{ color: '#85603F' }}> With Love</span> And</h4>
+          <h4>Made<span style={{ color: '#47272b' }}> With Love</span> And</h4>
           <h4>A Touch Of Fashion</h4>
         </div>
         <div style={{ width: '50%', textAlign: 'left', color: 'black', letterSpacing: '2.9px', fontStyle: 'italic', marginTop: '30px' }}>

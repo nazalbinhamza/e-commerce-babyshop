@@ -50,13 +50,13 @@ export default function Paymentsec() {
     <div className='containier'>
         <ToastContainer />
         <br /><br /><br />
-    <MDBContainer fluid className="p-5" style={{backgroundColor:'#EADCA6',minHeight: '150vh'}}>
+    <MDBContainer fluid className="p-5">
       <MDBCard>
         <MDBCardBody>
           <MDBRow className="d-flex justify-content-center pb-5">
             <MDBCol md="7" xl="5" className="mb-4 mb-md-0">
             <img style={{height:'60px'}} src="https://seeklogo.com/images/B/baby-logo-6ABC3EF92F-seeklogo.com.png" />
-            <h2 style={{color:'burlywood',letterSpacing:'2px',fontFamily:'italic'}}>Babify</h2>
+            <h2 style={{color:'#47272b',letterSpacing:'2px',fontFamily:'italic'}}>Babi<span style={{color:'black'}}>fy</span></h2>
                 <br />
               <div className="py-4 d-flex flex-row">
                 <h5>
@@ -65,7 +65,7 @@ export default function Paymentsec() {
                 </h5>
                 <span className="ps-2">Pay</span>
               </div>
-              <h4 style={{color:'burlywood'}}>{paydata.title}</h4>
+              <h4 style={{color:'#47272b'}}>{paydata.title}</h4>
               <div className="d-flex pt-2">
                 <div>
                   <p>

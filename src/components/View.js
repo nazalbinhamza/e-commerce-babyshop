@@ -32,10 +32,10 @@ const View = () => {
     }
     
   return (
-    <div style={{backgroundColor:'#EADCA6',minHeight: '150vh'}}>
+    <div>
      <br /><br /><br />
         <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center'}}>
-        <MDBCard style={{marginTop:'40px',width:'400px'}}>
+        <MDBCard style={{marginTop:'40px',width:'400px',boxShadow:'10px 5px 5px grey'}}>
       <MDBCardImage src={data.image} position='top' alt='...' />
       <MDBCardBody>
         <MDBCardTitle>{data.title}</MDBCardTitle>
