@@ -1,13 +1,9 @@
-import React, { useContext, useRef } from 'react'
-import { NavLink } from 'react-router-dom'
-import { Container } from 'react-bootstrap'
-import { useNavigate } from 'react-router-dom'
+import React, { useContext, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   MDBContainer,
   MDBInput,
-  MDBCheckbox,
   MDBBtn,
-  MDBIcon
 }
 from 'mdb-react-ui-kit';
 import { AuthContext } from '../App';
