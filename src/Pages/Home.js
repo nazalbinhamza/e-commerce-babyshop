@@ -61,31 +61,31 @@ function Home() {
         <h5 style={{fontFamily:"sans-serif",fontSize:'18px'}}>Shope The Drop</h5>
     </div>
 
-    <div className='container-fluid g-3 p-5'>
-      <div className='row g-5 '>
+    <div className='container-fluid g-3 p-0 w-100 mt-4'>
+      <div className='row g-2 '>
         <div className='col-3'>
-        <img src='https://cdn.shopify.com/s/files/1/0592/0659/8852/files/281A3247_360x.png?v=1629207791' className='img-fluid shadow-4 p-0 w-100 img1-card' alt='...' style={{borderRadius:'10px'}} />
+        <img src='https://cdn.shopify.com/s/files/1/0592/0659/8852/files/281A3247_360x.png?v=1629207791' className='img-fluid shadow-4 p-0 w-100' alt='...' style={{borderRadius:'10px'}} />
         <button onClick={()=>nav('/shop/dress')} className='shop-now'>Shop now</button>
         </div>
         <div className='col-3'>
-        <img src='https://cdn.shopify.com/s/files/1/0592/0659/8852/files/281A3407_360x.png?v=1629207762' className='img-fluid shadow-4 p-0 w-100 img2-card' alt='...' style={{borderRadius:'10px'}}/>
+        <img src='https://cdn.shopify.com/s/files/1/0592/0659/8852/files/281A3407_360x.png?v=1629207762' className='img-fluid shadow-4 p-0 w-100' alt='...' style={{borderRadius:'10px'}}/>
         <button onClick={()=>nav('/shop/dress')} className='shop-now'>Shop now</button>
         </div>
         <div className='col-3'>
-        <img src='https://cdn.shopify.com/s/files/1/0592/0659/8852/files/281A3170_360x.png?v=1629207777' className='img-fluid shadow-4 w-100 img3-card' alt='...' style={{borderRadius:'10px'}}/>
+        <img src='https://cdn.shopify.com/s/files/1/0592/0659/8852/files/281A3170_360x.png?v=1629207777' className='img-fluid shadow-4 w-100' alt='...' style={{borderRadius:'10px'}}/>
         <button onClick={()=>nav('/shop/dress')} className='shop-now'>Shop now</button>
         </div>
         <div className='col-3'>
-        <img src='https://cdn.shopify.com/s/files/1/0592/0659/8852/files/281A3447_360x.png?v=1629207858' className='img-fluid shadow-4 w-100 img4-card' alt='...' style={{borderRadius:'10px'}}/>
+        <img src='https://cdn.shopify.com/s/files/1/0592/0659/8852/files/281A3447_360x.png?v=1629207858' className='img-fluid shadow-4 w-100' alt='...' style={{borderRadius:'10px'}}/>
         <button onClick={()=>nav('/shop/dress')} className='shop-now'>Shop now</button>
         </div>
       </div>
     </div>
 
 
-   <MDBRow className='row-col-1 rowcols-md-12 '>
+   <MDBRow className='row-col-1 rowcols-md-12'>
     <MDBCol>
-    <MDBCard>
+    <MDBCard className='video-img'>
     <video autoPlay loop muted playsInline  >
         <source  src="https://cdn.shopify.com/videos/c/o/v/db2543402179449eaa2d267e4ff4f685.mov" type="video/mp4" />
       </video>
@@ -93,8 +93,8 @@ function Home() {
     </MDBCol>
    </MDBRow>
 
-   <div className='container-fluid g-3 p-5'>
-      <div className='row g-5 '>
+   <div className='container-fluid g-3 p-0 card-section-2'>
+      <div className='row g-2'>
         <div className='col-3'>
         <img src='https://obori.in/cdn/shop/products/1_95539596-bce1-4780-947d-cfcb33732b77_800x.jpg?v=1651755474' className='img-fluid shadow-4 p-0 w-100 img1-card2' alt='...' style={{borderRadius:'10px'}} />
         <button onClick={()=>nav('/shop/dress')} className='shop-now2'>Shop now</button>

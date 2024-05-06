@@ -13,7 +13,7 @@
   width: 300px;
   height: 50px;
   margin-top: 30px;
-  margin-left: 7px;
+  margin-left: 35px;
   background-color: #47272b;
   color: white;
   border: 0px;
@@ -23,34 +23,44 @@
   width: 300px;
   height: 50px;
   margin-top: 30px;
-  margin-left: 7px;
+  margin-left: 35px;
   background-color: #47272b;
   color: white;
   border: 0px;
   font: bold;
 }
 .childrens-img{
-  margin-top: 30px;
+  margin-top: 60px;
+}
+.video-img{
+  margin-top: 60px;
+}
+.card-section2{
+  margin-top: 60px;
 }
 .img1-card2{
+  margin-top: 50px;
   transition: 1s;
 }
 .img1-card2:hover {
   opacity: 0.7;
 }
 .img2-card2{
+  margin-top: 50px;
   transition: 1s;
 }
 .img2-card2:hover {
   opacity: 0.7;
 }
 .img3-card2{
+  margin-top: 50px;
   transition: 1s;
 }
 .img3-card2:hover {
   opacity: 0.7;
 }
 .img4-card2{
+  margin-top: 50px;
   transition: 1s;
 }
 .img4-card2:hover {
@@ -132,37 +142,27 @@
     .brown4-p{
       display: none;
     }
-
-    .img1-card{
-      height: 50px !important;
-      width: 100px !important;
+    .childrens-img{
+      margin-top: 30px;
     }
-    .img2-card{
-      height: 50px !important;
-      width: 100px !important;
+    .video-img{
+      margin-top: 20px;
     }
-    .img3-card{
-      height: 50px !important;
-      width: 100px !important;
+    .card-section2{
+      margin-top: 20px !important;
     }
-    .img4-card{
-      height: 50px !important;
-      width: 100px !important;
-    }
-
-
     .shop-now{
-      width: 40px;
-      height: 10px;
+      width: 70px;
+      height: 15px;
       margin-top: 10px;
-      margin-left: 0px;
+      margin-left: 12px;
       font-size: 6px;
     }
     .shop-now2{
-      width: 40px;
-      height: 10px;
+      width: 70px;
+      height: 20px;
       margin-top: 10px;
-      margin-left: 0px;
+      margin-left: 12px;
       font-size: 6px;
     }
     
