@@ -104,7 +104,7 @@ export default function App() {
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                Babybuzz@gmail.com
+                Babify@gmail.com
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> +91 8921122136
@@ -118,9 +118,9 @@ export default function App() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-         Copyright © 2024 Baby Buzz |  
+         Copyright © 2024 Babify |  
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-        | Powered by Baby Buzz
+        | Powered by Babify
         </a>
       </div>
     </MDBFooter>
